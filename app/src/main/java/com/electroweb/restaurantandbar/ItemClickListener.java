@@ -1,0 +1,9 @@
+package com.electroweb.restaurantandbar;
+
+import android.view.View;
+
+public interface ItemClickListener {
+
+    void onItemClick(View v, int pos);
+
+}
